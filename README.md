@@ -1,5 +1,5 @@
 # Digit Sum Prediction using CNN
-A Convolutional Neural Network (CNN) model for the task of predicting the sum of digits in an image. The dataset consists of images with 4 digits and labelled data is the sum of those digits. The image is preprocessed using OpenCV's regionProps, Labels and Thresholding to identify the different regions containing the digits. The regions are then padded and resized to 28x28 to be fed into the CNN model.
+A Convolutional Neural Network (CNN) model for the task of predicting the sum of digits in an image. The dataset consists of images with 4 digits and labelled data is the sum of those digits. The image is preprocessed using OpenCV's regionProps, Labels and Thresholding to identify the different regions containing the digits. The regions are then padded and resized to 28x28 to be fed into the CNN model. 
 
 ## Image Preprocessing
 1. `regionProps`, `Labels`, and `Thresholding` are used to identify the regions in the image that contain the digits.
